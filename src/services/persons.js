@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseUrl = 'https://keen-dodol-3a3cac.netlify.app/.netlify/functions/api/api/persons'
+const baseUrl = 'https://phonebook-backend-gezv3zj7f-rafaelrendonx.vercel.app/api/persons'
 
 const getAll = () => {
     return axios.get(baseUrl)
